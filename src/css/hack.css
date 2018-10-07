@@ -1,4 +1,4 @@
-@import 'color-preset';
+@import 'color-preset/material.css';
 @import './vars';
 @import './mixins';
 @import './reset.css';

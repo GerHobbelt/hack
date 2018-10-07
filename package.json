@@ -1,6 +1,6 @@
 {
-  "name": "hack",
-  "version": "0.8.1",
+  "name": "@gerhobbelt/hack",
+  "version": "0.8.2-1",
   "description": "Dead simple CSS framework.",
   "main": "dist/hack.css",
   "scripts": {
@@ -8,7 +8,8 @@
     "build": "gulp build",
     "dev": "gulp",
     "gh": "npm run build && gh-pages -d demo",
-    "toc": "markdown-toc -i README.md"
+    "toc": "markdown-toc -i README.md",
+    "pub": "npm publish --access pub"
   },
   "repository": {
     "type": "git",
@@ -31,16 +32,16 @@
   },
   "homepage": "https://github.com/egoist/hack#readme",
   "devDependencies": {
-    "color-preset": "^0.1.1",
-    "cssnano": "^3.7.3",
-    "gulp": "^3.9.1",
-    "gulp-jade": "^1.1.0",
-    "gulp-postcss": "^6.1.1",
-    "gulp-serve": "^1.4.0",
-    "jstransformer-marked": "^1.0.1",
-    "postcss-cssnext": "^2.7.0",
-    "postcss-import": "^8.1.2",
-    "postcss-mixins": "^5.0.0",
-    "postcss-simple-vars": "^3.0.0"
+    "color-preset": "1.0.1",
+    "cssnano": "4.1.4",
+    "gulp": "3.9.1",
+    "gulp-jade": "1.1.0",
+    "gulp-postcss": "8.0.0",
+    "gulp-serve": "1.4.0",
+    "jstransformer-marked": "1.0.3",
+    "postcss-cssnext": "3.1.0",
+    "postcss-import": "12.0.0",
+    "postcss-mixins": "6.2.0",
+    "postcss-simple-vars": "5.0.1"
   }
 }
