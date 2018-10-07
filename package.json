@@ -9,7 +9,7 @@
     "dev": "gulp",
     "gh": "npm run build && gh-pages -d demo",
     "toc": "markdown-toc -i README.md",
-    "pub": "npm publish --access pub"
+    "pub": "npm publish --access public"
   },
   "repository": {
     "type": "git",
