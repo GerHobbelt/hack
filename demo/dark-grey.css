@@ -1,0 +1,135 @@
+/**
+ * vars
+ */
+.dark-grey {
+  background-color: #181818;
+  color: #ccc
+}
+.dark-grey pre {
+  background-color: #181818;
+  padding: 0;
+  border: none
+}
+.dark-grey pre code {
+  color: #00bcd4;
+}
+.dark-grey h1 a,
+  .dark-grey h2 a,
+  .dark-grey h3 a,
+  .dark-grey h4 a,
+  .dark-grey h5 a {
+  color: #ccc;
+}
+.dark-grey strong,
+  .dark-grey code {
+  color: white;
+}
+.dark-grey code {
+  font-weight: 100;
+}
+.dark-grey {/**
+   * table
+ */
+}
+.dark-grey table {
+  color: #ccc;
+}
+.dark-grey table td,
+  .dark-grey table th {
+  border-color: #444;
+}
+.dark-grey table tbody td:first-child {
+  color: white;
+}
+.dark-grey {/**
+   * Form
+ */
+}
+.dark-grey .form-group label {
+  color: #ccc;
+  border-color: rgba(95, 95, 95, .78);
+}
+.dark-grey .form-group.form-textarea label:after {
+  background-color: #181818;
+}
+.dark-grey .form-control {
+  color: #ccc;
+  border-color: rgba(95, 95, 95, .78)
+}
+.dark-grey .form-control:focus {
+  border-color: #ccc;
+  color: #ccc;
+}
+.dark-grey textarea.form-control {
+  color: #ccc;
+}
+.dark-grey {/**
+   * Card
+ */
+}
+.dark-grey .card {
+  border-color: rgba(95, 95, 95, .78)
+}
+.dark-grey .card .card-header {
+  background-color: transparent;
+  color: #ccc;
+  border-bottom: 1px solid rgba(95, 95, 95, .78);
+}
+.dark-grey {/**
+   * Buttons
+ */
+}
+.dark-grey .btn.btn-ghost.btn-default {
+  border-color: #ababab;
+  color: #ababab;
+}
+.dark-grey .btn.btn-ghost.btn-default:hover, .dark-grey .btn.btn-ghost.btn-default:focus {
+  border-color: #9c9c9c;
+  color: #9c9c9c;
+  z-index: 2;
+}
+.dark-grey .btn.btn-ghost.btn-default:hover, .dark-grey .btn.btn-ghost.btn-default:focus {
+  border-color: #e0e0e0;
+  color: #e0e0e0;
+}
+.dark-grey .btn.btn-ghost.btn-primary:hover, .dark-grey .btn.btn-ghost.btn-primary:focus {
+  border-color: #64b5f6;
+  color: #64b5f6;
+}
+.dark-grey .btn.btn-ghost.btn-success:hover, .dark-grey .btn.btn-ghost.btn-success:focus {
+  border-color: #81c784;
+  color: #81c784;
+}
+.dark-grey .btn.btn-ghost.btn-info:hover, .dark-grey .btn.btn-ghost.btn-info:focus {
+  border-color: #4dd0e1;
+  color: #4dd0e1;
+}
+.dark-grey .btn.btn-ghost.btn-error:hover, .dark-grey .btn.btn-ghost.btn-error:focus {
+  border-color: #e57373;
+  color: #e57373;
+}
+.dark-grey .btn.btn-ghost.btn-warning:hover, .dark-grey .btn.btn-ghost.btn-warning:focus {
+  border-color: #ffb74d;
+  color: #ffb74d;
+}
+.dark-grey {/**
+   * Holders
+ */
+}
+.dark-grey .placeholder,
+  .dark-grey .avatarholder {
+  background-color: transparent;
+  border-color: #333;
+}
+.dark-grey {/**
+   * Menu
+ */
+}
+.dark-grey .menu .menu-item {
+  color: #ccc;
+  border-color: rgba(95, 95, 95, .78)
+}
+.dark-grey .menu .menu-item:hover, .dark-grey .menu .menu-item.active {
+  color: white;
+  border-color: #ccc;
+}
