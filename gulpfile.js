@@ -38,9 +38,9 @@ gulp.task('css', () => {
       require('postcss-cssnext')({
         browsers: ['last 2 versions', 'ie > 8']
       }),
-      require('cssnano')({
-        autoprefixer: false
-      })
+      // require('cssnano')({
+      //   autoprefixer: false
+      // })
     ]))
     .pipe(gulp.dest('./dist'))
     .pipe(gulp.dest('./demo'))
